@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(203, 202, 202);
+}
+
+
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: seagreen;
+    transform: scale(1.05);
+}
+
+.lp {
+    background-color: black;
+    padding: 18px;
+    border-radius: 30px;
+    margin: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container {
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 0.9rem 1.9rem;
+    color: white;
+    background-color: red;
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: indigo;
+    transform: scale(1) !important;
+}
+
+.showcase-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.big-title {
+    font-size: 1.4rem;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.text {
+    color: white;
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 2.3;
+}
+
+.showcase-area .btn {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
+}
+
+.person {
+    width: 100%;
+    transform: translate(15%, 25px);
+}
+
+.container1 {
+    height: 300px;
+    width: 280px;
+    background-color: black;
+    padding: 18px;
+    border-radius: 15px;
+    margin: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.bers {
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+}
+
+.Upcoming-Match-btn {
+    display: flex;
+    color: black;
+    background-color: white;
+    border-radius: 16px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.All-Group-btn {
+
+    display: flex;
+    color: black;
+    background-color: white;
+    border-radius: 16px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.Blog-btn {
+    display: flex;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.container2 {
+    display: inline;
+    padding: 18px;
+
+}
+
+.card1 {
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+    border: 5px;
+    margin: 40px;
+    border-radius: 8px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.title1 {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 20px;
+}
+
+.time-icon {
+    border: 4px;
+    justify-content: flex-start;
+
+}
